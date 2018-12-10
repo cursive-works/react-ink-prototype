@@ -5,7 +5,6 @@ import logo from './logo.svg';
 import './App.css';
 
 import storyContent from './story.json'
-console.log(storyContent)
 let Story = require('inkjs').Story;
 const ink = new Story(storyContent);
 
